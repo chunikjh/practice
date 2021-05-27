@@ -290,3 +290,23 @@ ls
 cat practice/
 #1622132961
 cat README.md 
+#1622132972
+git add -A
+#1622132978
+git status
+#1622133011
+git commit -m "README.md update"
+#1622133040
+git remote add https://github.com/chunikjh/practice.git
+#1622133074
+git remote add origin https://github.com/chunikjh/practice.git
+#1622133087
+git push origin master
+#1622133269
+git log
+#1622133333
+git commit -m "README.md update2"
+#1622133363
+ls
+#1622133368
+git commit -m "README.md update2"
