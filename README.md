@@ -15,3 +15,5 @@ ItemApiController 자바파일에서 create() 에 ItemApiLogicService 연동하�
 ItemApiController 자바파일에서 read() 에 ItemApiLogicService 연동하여 구현
 
 ItemApiController 자바파일에서 update() 에 ItemApiLogicService 연동하여 구현
+
+ItemApiController 자바파일에서 delete() 에 ItemApiLogicService 연동하여 구현
