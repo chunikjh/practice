@@ -1,26 +1,8 @@
-Using id -> Return user
+package com.example.study.model.network.request 아래에 
+ItemApiRequest 자바 파일 생성
 
-8-1-04 User API Update
+package com.example.study.model.network.response 아래에
+ItemApiResponse 자바 파일 생성
 
- t UserApiController.java
-
- @Override
-     @DeleteMapping("{id}")      // /api/user/{id}
-         public Header delete(@PathVariable Long id) {
-	         return userApiLogicService.delete(id);
-		     }
-
-		     At UserApiLogicService.java
-		     @Override
-		         public Header delete(Long id) {
-			         // 1. id -> repository -> user
-				         Optional<User> optional = userRepository.findById(id);
-
-					         // 2. repository -> delete
-						         return optional.map(user -> {
-							                 userRepository.delete(user);
-									                 return Header.OK();
-											                 })
-													                .orElseGet(() -> Header.ERROR("데이터없음"));
-															    }
-
+com.example.study.controller.api 아래에
+ItemApiController 자바 파일 생성 CrudInterface 구현
