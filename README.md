@@ -13,3 +13,5 @@ ItemApiLogicService 자바 파일 생성 CrudInterface 구현
 ItemApiController 자바파일에서 create() 에 ItemApiLogicService 연동하여 구현
 
 ItemApiController 자바파일에서 read() 에 ItemApiLogicService 연동하여 구현
+
+ItemApiController 자바파일에서 update() 에 ItemApiLogicService 연동하여 구현
