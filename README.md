@@ -17,3 +17,31 @@ ItemApiController 자바파일에서 read() 에 ItemApiLogicService 연동하여
 ItemApiController 자바파일에서 update() 에 ItemApiLogicService 연동하여 구현
 
 ItemApiController 자바파일에서 delete() 에 ItemApiLogicService 연동하여 구현
+
+package com.example.study.model.network.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class OrderGroupApiRequest{
+   private Long id;
+   private String status;
+   private String orderType;
+   private String revAddress;
+   private String revName;
+   private String paymentType;
+   private BigDecimal totalPrice;
+   private Integer totalQuantity;
+   private LocalDateTime orderAt;
+   private LocalDateTime arrivalDate;
+   private Long userId;
+ }
