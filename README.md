@@ -45,3 +45,6 @@ public class OrderGroupApiRequest{
    private LocalDateTime arrivalDate;
    private Long userId;
  }
+
+ copy OrderGroupApiRequest to OrderGroupApiResponse
+ 
