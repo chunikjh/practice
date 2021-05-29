@@ -18,3 +18,6 @@ public enum UserStatus {
 }
 
 [User],[UserApiRequest],[UserApiResponse] 변경
+
+Enum 생성 -> entity 적용 -> request/response 적용 -> service 변경
+단, Enum 설정은 초기에 할것
