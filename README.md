@@ -92,4 +92,8 @@ public class PartnerApiLogicService extends BaseService<PartnerApiRequest, Partn
 																																							            return Header.OK(body);
 																																								        }
 																																									}
-																																									
+																																							샘플 데이터를 생성하는 방법
+																																							1. 코드 파일을 이용하여 직접 생성
+																																							2. 이미 작성된 SQL 파일을 import 하기
+
+
