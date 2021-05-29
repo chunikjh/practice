@@ -104,3 +104,6 @@ Pagination 자바 파일을 생성하여 전체페이지, 전체요소, 현재�
 user -> orderGroup -> item 
 id로 조회 -> UserApiResponse로 전달 -> 전체 주문정보 획득 -> 개별 주문내역을 스트림을 이용해 수집 -> 반환
 
+프론트 뷰 확인
+마무으리
+
