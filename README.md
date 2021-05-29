@@ -38,4 +38,58 @@ CrudController는 CrudInterface를 구현하기 위해서 가지고 있는 제�
 
 BaseService에 걸려있는 req, res, Entity는 각 LogicService가 생성이 될때 상속받으면서 넘겨받은 것이며, 이 값을 이용해서 LogicService에 재정의된 4가지 기본 메서드를 사용한다.
 
+적용하기
 
+package com.example.study.service;
+
+import com.example.study.model.entity.Item;
+import com.example.study.model.entity.Partner;
+import com.example.study.model.network.Header;
+import com.example.study.model.network.request.PartnerApiRequest;
+import com.example.study.model.network.response.ItemApiResponse;
+import com.example.study.model.network.response.PartnerApiResponse;
+import org.springframework.stereotype.Service;
+
+@Service
+public class PartnerApiLogicService extends BaseService<PartnerApiRequest, PartnerApiResponse, Partner>{
+    @Override
+        public Header<PartnerApiResponse> create(Header<PartnerApiRequest> request) {
+	        return null;
+		    }
+
+		        @Override
+			    public Header<PartnerApiResponse> read(Long id) {
+			            return baseRepository.findById(id)
+				                    .map(this::response)
+						                    .orElseGet(()->Header.ERROR("데이터 없음"));
+								        }
+
+									    @Override
+									        public Header<PartnerApiResponse> update(Header<PartnerApiRequest> request) {
+										        return null;
+											    }
+
+											        @Override
+												    public Header delete(Long id) {
+												            return null;
+													        }
+
+														    private Header<PartnerApiResponse> response(Partner partner){
+														            ItemApiResponse body = ItemApiResponse.builder()
+															                    .id(partner.getId())
+																	                    .name(partner.getName())
+																			                    .status(partner.getStatus())
+																					                    .address(partner.getAddress())
+																							                    .callCenter(partner.getCallCenter())
+																									                    .partnerNumber(partner.getPartnerNumber())
+																											                    .businessNumber(partner.getBusinessNumber())
+																													                    .ceoName(partner.getCeoName())
+																															                    .registeredAt(partner.getRegisteredAt())
+																																	                    .unregisteredAt(partner.getUnregisteredAt())
+																																			                    .categoryId(partner.getCategory().getId())
+																																					                    .build();
+
+																																							            return Header.OK(body);
+																																								        }
+																																									}
+																																									
