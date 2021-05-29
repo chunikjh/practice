@@ -100,4 +100,7 @@ public class PartnerApiLogicService extends BaseService<PartnerApiRequest, Partn
 Pagination 자바 파일을 생성하여 전체페이지, 전체요소, 현재페이지, 현재요소를 선언하고 seach() 메서드내에서 이것을 이용하여 표시를 위한 최소한의 정보를 제공한다.
 
 //todo Service에서 사용가능하도록 모든 Controller에 적용되도록 추상 클래스로 작성한다.
+특정 사용자가 어떤 상품을 주문했고, 주문의 상세내역이 무엇이고, 그 상품은 무엇인가?
+user -> orderGroup -> item 
+id로 조회 -> UserApiResponse로 전달 -> 전체 주문정보 획득 -> 개별 주문내역을 스트림을 이용해 수집 -> 반환
 
