@@ -21,3 +21,5 @@ public enum UserStatus {
 
 Enum 생성 -> entity 적용 -> request/response 적용 -> service 변경
 단, Enum 설정은 초기에 할것
+
+추상 컨트롤러 생성 -> 컨트롤러 내부 변경(구현 -> 상속) ->PostConstruct 설정 
