@@ -96,4 +96,8 @@ public class PartnerApiLogicService extends BaseService<PartnerApiRequest, Partn
 																																							1. 코드 파일을 이용하여 직접 생성
 																																							2. 이미 작성된 SQL 파일을 import 하기
 
+모든 컨트롤러에 대해서 Header<List<*Response>>를 반환하는 seach() 메서드를 만든다.
+Pagination 자바 파일을 생성하여 전체페이지, 전체요소, 현재페이지, 현재요소를 선언하고 seach() 메서드내에서 이것을 이용하여 표시를 위한 최소한의 정보를 제공한다.
+
+//todo Service에서 사용가능하도록 모든 Controller에 적용되도록 추상 클래스로 작성한다.
 
