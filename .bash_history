@@ -945,3 +945,29 @@ git push origin master
 git pull --rebase origin master
 #1623390085
 git status
+#1623390107
+git add .
+#1623390128
+git commit -m 'JPA so far so good?'
+#1623390160
+git pull --rebase origin master
+#1623390435
+git pull --rebase practice master
+#1623390501
+git pull --rebase origin master From https://github.com/chunikjh/practice
+#1623390661
+git status
+#1623390772
+git remote add origin {http://github.com/chunikjh/practice}
+#1623390973
+git remote add origin {http://github.com/chunikjh/practice
+#1623390983
+git remote add origin http://github.com/chunikjh/practice
+#1623390996
+git pull --rebase origin master 
+#1623391001
+git status
+#1623391015
+git add .
+#1623391019
+git pull --rebase origin master 
