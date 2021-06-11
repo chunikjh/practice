@@ -869,3 +869,39 @@ git commit -m 'JPA so far so good!!'
 git push origin master
 #1623388575
 git status
+#1623388610
+git add .bash_history
+#1623388613
+git status
+#1623388627
+git commit -m 'JPA so far so good!!2'
+#1623388640
+git push origin master
+#1623388655
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388662
+git status
+#1623388666
+git add .bash_history
+#1623388670
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388697
+git stash pop
+#1623388714
+git status
+#1623388717
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388756
+git status
+#1623388776
+git add .bash_history
+#1623388792
+git status
+#1623388798
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388817
+git push --rebase https://github.com/chunikjh/practice master
+#1623388822
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388826
+git status
