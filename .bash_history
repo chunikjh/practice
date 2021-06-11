@@ -851,3 +851,13 @@ git pull --rebase https://github.com/chunikjh/practice master
 git status
 #1623388475
 git add
+#1623388484
+git add .
+#1623388488
+git status
+#1623388515
+git commit -m 'JPA so far so good!!'
+#1623388521
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388528
+git commit -m 'JPA so far so good!!'
