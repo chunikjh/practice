@@ -861,3 +861,11 @@ git commit -m 'JPA so far so good!!'
 git pull --rebase https://github.com/chunikjh/practice master
 #1623388528
 git commit -m 'JPA so far so good!!'
+#1623388536
+git add .
+#1623388538
+git commit -m 'JPA so far so good!!'
+#1623388547
+git push origin master
+#1623388575
+git status
