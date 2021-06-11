@@ -919,3 +919,29 @@ git pull --rebase https://github.com/chunikjh/practice mastercannot pull with re
 git status
 #1623389191
 git commit -m 'JPA so far so good!!2'
+#1623389894
+git status
+#1623389903
+git pull --rebase origin master
+#1623389917
+git push origin master
+#1623389935
+git pull --rebase origin master
+#1623389942
+ls
+#1623389953
+cd practice
+#1623389954
+ls
+#1623389959
+cd ..
+#1623389965
+ls
+#1623389981
+git status
+#1623389997
+git push origin master
+#1623390022
+git pull --rebase origin master
+#1623390085
+git status
