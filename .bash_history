@@ -905,3 +905,9 @@ git push --rebase https://github.com/chunikjh/practice master
 git pull --rebase https://github.com/chunikjh/practice master
 #1623388826
 git status
+#1623388831
+git add .bash_history
+#1623388838
+git commit -m 'JPA so far so good!!2'
+#1623388847
+git status
