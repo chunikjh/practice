@@ -841,3 +841,13 @@ git push origin master
 git add .
 #1623128858
 git commit -m 'JPA Use data.sql'
+#1623388410
+git stash
+#1623388429
+git push origin master
+#1623388441
+git pull --rebase https://github.com/chunikjh/practice master
+#1623388453
+git status
+#1623388475
+git add
