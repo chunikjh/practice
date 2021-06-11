@@ -7,11 +7,17 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/*
+
 # Command Line History (newest to oldest):
 :wq
+:ㅈㅂ
+:q!
 :q
 
 # Search String History (newest to oldest):
+?/*
 
 # Expression History (newest to oldest):
 
@@ -20,15 +26,65 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	:
+""1	LINE	0
+	}
+	
+"2	LINE	0
+	package com.example.study.service;
+"3	LINE	0
+	
+"4	LINE	0
+	import com.example.study.ifs.CrudInterface;
+"5	LINE	0
+	import com.example.study.model.entity.OrderGroup;
+"6	LINE	0
+	import com.example.study.model.network.Header;
+"7	LINE	0
+	import com.example.study.model.network.request.OrderGroupApiRequest;
+"8	LINE	0
+	import com.example.study.model.network.response.OrderGroupApiResponse;
+"9	LINE	0
+	import com.example.study.repository.OrderGroupRepository;
+"-	CHAR	0
+	e
 
 # File marks:
-'0  8  0  /home/Kimjihun/test
-'1  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
-'2  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+'0  34  0  /home/Kimjihun/finalAssignment.md
+'1  1  0  /home/Kimjihun/finalAssignment.md
+'2  109  0  /home/Kimjihun/README.md
+'3  105  129  /home/Kimjihun/README.md
+'4  103  0  /home/Kimjihun/README.md
+'5  98  0  /home/Kimjihun/README.md
+'6  95  40  /home/Kimjihun/README.md
+'7  41  0  /home/Kimjihun/README.md
+'8  30  0  /home/Kimjihun/README.md
+'9  25  97  /home/Kimjihun/README.md
 
 # Jumplist (newest first):
+-'  34  0  /home/Kimjihun/finalAssignment.md
+-'  1  0  /home/Kimjihun/finalAssignment.md
+-'  109  0  /home/Kimjihun/README.md
+-'  1  0  /home/Kimjihun/README.md
+-'  105  129  /home/Kimjihun/README.md
+-'  103  0  /home/Kimjihun/README.md
+-'  98  0  /home/Kimjihun/README.md
+-'  95  40  /home/Kimjihun/README.md
+-'  41  0  /home/Kimjihun/README.md
+-'  30  0  /home/Kimjihun/README.md
+-'  25  97  /home/Kimjihun/README.md
+-'  23  33  /home/Kimjihun/README.md
+-'  20  45  /home/Kimjihun/README.md
+-'  238  0  /home/Kimjihun/README.md
+-'  240  139  /home/Kimjihun/README.md
+-'  239  123  /home/Kimjihun/README.md
+-'  325  0  /home/Kimjihun/README.md
+-'  248  0  /home/Kimjihun/README.md
+-'  129  2  /home/Kimjihun/README.md
+-'  111  86  /home/Kimjihun/README.md
+-'  19  86  /home/Kimjihun/README.md
+-'  17  84  /home/Kimjihun/README.md
+-'  15  86  /home/Kimjihun/README.md
+-'  10  56  /home/Kimjihun/README.md
 -'  8  0  /home/Kimjihun/test
 -'  1  0  /home/Kimjihun/test
 -'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
@@ -52,8 +108,155 @@
 -'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
 -'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
 -'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  8  0  /home/Kimjihun/test
+-'  1  0  /home/Kimjihun/test
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  2  0  /home/Kimjihun/test
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  8  0  /home/Kimjihun/test
+-'  1  0  /home/Kimjihun/test
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  2  0  /home/Kimjihun/test
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  8  0  /home/Kimjihun/test
+-'  1  0  /home/Kimjihun/test
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/ucsd-cse12-w21.github.io-master/lectures/lecture-06/AList.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  1  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
+-'  75  0  /drives/c/Users/KIMJIH~1/Desktop/CSE 12/cse12-wi21-pa1-Testing-starter-main/pa1-starter/baskets/BasketTest.java
 
 # History of marks within files (newest to oldest):
+
+> /home/Kimjihun/finalAssignment.md
+	"	34	0
+	^	34	1
+	.	34	0
+	+	33	104
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	22	0
+	+	22	0
+	+	24	0
+	+	25	4
+	+	26	12
+	+	27	17
+	+	28	17
+	+	29	36
+	+	29	36
+	+	30	14
+	+	32	0
+	+	31	0
+	+	32	0
+	+	31	0
+	+	32	1
+	+	32	6
+	+	33	5
+	+	33	5
+	+	32	6
+	+	33	10
+	+	33	60
+	+	33	6
+	+	33	60
+	+	34	0
+
+> /home/Kimjihun/README.md
+	"	109	0
+	^	109	0
+	.	108	12
+	+	326	0
+	+	1	44
+	+	1	69
+	+	1	523
+	+	1	0
+	+	1	480
+	+	1	523
+	+	10	0
+	+	326	0
+	+	15	89
+	+	17	84
+	+	326	0
+	+	19	89
+	+	111	89
+	+	245	0
+	+	244	0
+	+	243	0
+	+	242	0
+	+	241	0
+	+	239	0
+	+	239	0
+	+	132	0
+	+	131	0
+	+	130	0
+	+	129	0
+	+	128	2
+	+	126	0
+	+	248	0
+	+	325	0
+	+	239	123
+	+	240	139
+	+	239	8
+	+	239	0
+	+	238	0
+	+	1	10
+	+	20	48
+	+	23	36
+	+	25	97
+	+	29	214
+	+	40	0
+	+	95	40
+	+	99	0
+	+	98	0
+	+	102	113
+	+	105	137
+	+	108	12
 
 > /home/Kimjihun/test
 	"	8	0
