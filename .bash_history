@@ -911,3 +911,11 @@ git add .bash_history
 git commit -m 'JPA so far so good!!2'
 #1623388847
 git status
+#1623389165
+git stash
+#1623389177
+git pull --rebase https://github.com/chunikjh/practice mastercannot pull with rebase: You have unstaged changes.
+#1623389182
+git status
+#1623389191
+git commit -m 'JPA so far so good!!2'
