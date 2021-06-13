@@ -971,3 +971,15 @@ git status
 git add .
 #1623391019
 git pull --rebase origin master 
+#1623391025
+git add .
+#1623391033
+git commit -m 'JPA so far so good?'
+#1623391039
+git pull --rebase origin master
+#1623391044
+git push origin master
+#1623496257
+git push --force origin master
+#1623543124
+git commit -m 'Controller - @GetMapping'
