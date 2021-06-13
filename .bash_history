@@ -997,3 +997,7 @@ git commit -m 'Controller - @PostMapping'
 git add .
 #1623550467
 git commit -m 'Controller - @PutMapping'
+#1623551857
+git add .
+#1623551867
+git commit -m 'Controller - @DeleteMapping'
